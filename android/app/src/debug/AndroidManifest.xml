@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.delivery">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application android:allowBackup="true" 
+    android:usesCleartextTraffic="true">
+     <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBENNx8lv0V3DV4i6mPnn7Zrz2JyvpOvkE"/>
+     </application>
+</manifest>
